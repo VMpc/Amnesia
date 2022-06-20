@@ -1,4 +1,5 @@
 DESTDIR = /usr/local
+DESKDIR = /usr/share
 
 run:
 	go run main.go
@@ -9,6 +10,7 @@ build:
 install: build
 	mkdir -p ${DESTDIR}/bin
 	cp -f bin/Amnesia ${DESTDIR}/bin/Amnesia
+	cp -f Amnesia.desktop ${DESKDIR}/applications
 	chmod 755 ${DESTDIR}/bin/Amnesia
 uninstall:
 	rm -f ${DESTDIR}/bin/Amnesia
