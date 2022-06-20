@@ -10,7 +10,7 @@ build:
 install: build
 	mkdir -p ${DESTDIR}/bin
 	cp -f bin/Amnesia ${DESTDIR}/bin/Amnesia
-	cp -f Amnesia.desktop ${DESKDIR}/applications
+	cp -f amnesia.desktop ${DESKDIR}/applications
 	chmod 755 ${DESTDIR}/bin/Amnesia
 uninstall:
 	rm -f ${DESTDIR}/bin/Amnesia
