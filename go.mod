@@ -1,4 +1,4 @@
-module github.com/Not-Cyrus/Amnesia
+module github.com/Fox-Cult/Amnesia
 
 go 1.18
 
