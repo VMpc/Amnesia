@@ -1,4 +1,4 @@
-module github.com/Fox-Cult/Amnesia
+module github.com/VMpc/Amnesia
 
 go 1.18
 
