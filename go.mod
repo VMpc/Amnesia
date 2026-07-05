@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	fyne.io/fyne/v2 v2.3.1
-	golang.org/x/crypto v0.45.0
+	golang.org/x/crypto v0.51.0
 )
 
 require (
